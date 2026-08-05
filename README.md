@@ -1,9 +1,18 @@
 # atc-stdlib-wiki
 
-📖 atc-stdlib Wiki — Standard Library für Userspace-Programme auf ShivaCore — Str
+Wiki für [atc-stdlib](https://github.com/A-TownChain-Okosystems/atc-stdlib)
 
-## Zugehöriges Repository
-- **Source:** [`A-TownChain-Okosystems/atc-stdlib`](https://github.com/A-TownChain-Okosystems/atc-stdlib)
+Dokumentation für ATCLang Standard Library
 
----
-Copyright © Michael Wroblewski / A-TownChain-Okosystems. All Rights Reserved.
+## Dokumentation
+- [Architektur](ARCHITECTURE.md)
+- [API Reference](API.md)
+- [Module](MODULES.md)
+- [Status](STATUS.md)
+
+## Übersicht
+Dieses Wiki dokumentiert das `atc-stdlib`-Repo, Teil des A-TownChain OS Ökosystems (70 Repos).
+
+Org: [A-TownChain-Okosystems](https://github.com/A-TownChain-Okosystems)
+
+[agent: aurora-base44-superagent-6a2756186106d6f0fbb105b5]
