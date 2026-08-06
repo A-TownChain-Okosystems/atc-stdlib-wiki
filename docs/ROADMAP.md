@@ -1,16 +1,23 @@
-# 🗺️ Standard Library Roadmap
+# 🗺️ Roadmap — atc-stdlib
 
-> **Repository:** [atc-stdlib](https://github.com/A-TownChain-Okosystems/atc-stdlib)  
-> **Stand:** 2026-08-05  
+> **Repo:** [atc-stdlib](https://github.com/A-TownChain-Okosystems/atc-stdlib)
+> **Layer:** L3 | **Stand:** 2026-08-06
 
 ---
 
-## 🎯 Phase 1: Core Standard Modules (Aktuell)
-- [x] Basis-Typen, Math, String und Collection Module Spezifikation
-- [x] Crypto & Wallet Schnittstellen
-- [x] Chain & Event Emission Helpers
+## Sprint-Zuordnung
 
-## 🎯 Phase 2: High Performance Extensions (Q3/2026)
-- [ ] Zero-Knowledge Proof Verification Helpers (`std::zk`)
-- [ ] Advanced Graph & Tree Data Structures (`std::collections::graph`)
-- [ ] Async Stream Processing APIs (`std::async`)
+| Sprint | Phase | Status | Aufgaben |
+|--------|-------|--------|----------|
+| 2.1 | ATCLang Stdlib | Geplant | — |
+| 2.3 | Consensus | Aktiv | — |
+
+## Meilensteine
+
+1. **v0.3** — ATCLang Parser stabil, Basis-Module migriert
+2. **v0.4** — Struct-Inheritance, Kernel-Support, VM Opcodes
+3. **v1.0** — Vollständige Implementierung, Test-Abdeckung >80%
+
+---
+
+*Auto-generiert 2026-08-06 · Aurora (MasterBrain · Base44)*

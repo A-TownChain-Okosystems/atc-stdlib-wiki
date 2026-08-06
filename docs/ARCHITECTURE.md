@@ -1,34 +1,35 @@
-# 🏛️ Standard Library System Architecture
+# 🏛️ Architektur — atc-stdlib
 
-> **Repository:** [atc-stdlib](https://github.com/A-TownChain-Okosystems/atc-stdlib)  
-> **Stand:** 2026-08-05  
-
----
-
-## 📌 Architektur & Modul-Laden
-
-Die ATCLang Standard Library wird vom Compiler bei der Transformation von Quellcode aufgelöst und in hochoptimierten Native- oder Bytecode-Hilfscalls umgewandelt.
-
-```
- ATCLang Program (`use std::crypto;`)
-                |
-                v
- +------------------------------+
- |  Stdlib Resolver & Namespace |
- +------------------------------+
-                |
-                v
- +------------------------------+
- | Builtin Function Inlining    |
- | / Syscall Mapping            |
- +------------------------------+
-                |
-                v
-     ATVM Execution Engine
-```
+> **Repo:** [atc-stdlib](https://github.com/A-TownChain-Okosystems/atc-stdlib)
+> **Layer:** L3 | **Titel:** Standard Library
+> **Stand:** 2026-08-06 | **Version:** v1.0.0
 
 ---
 
-## 🔒 Sicherheits- & Systemgrenzen
+## Übersicht
 
-Standardbibliothek-Module greifen niemals direkt auf ungeprüfte Hardwareressourcen zu. Sämtliche I/O-, Netzwerk- und State-Operationen werden über die ATVM Security Sandbox geleitet.
+Standard Library für Userspace: Collections, IO, Crypto, Net.
+
+## Komponenten
+
+## Abhängigkeiten
+
+Dieses Repo ist Teil des A-TownChain Ökosystems und nutzt:
+- [ATCLang Compiler](https://github.com/A-TownChain-Okosystems/atclang) für .atc Module
+- [ATC Standards](https://github.com/A-TownChain-Okosystems/atc-standards) für Spezifikationen
+- [Haupt-Wiki](https://github.com/A-TownChain-Okosystems/a-townchain-os-docs) für Governance
+
+## Statistik
+
+| Metrik | Wert |
+|--------|------|
+| Code-Dateien | 0 |
+| .atc | 0 |
+| .py | 0 |
+| .rs | 0 |
+| .ts | 0 |
+| Total Zeilen | 0 |
+
+---
+
+*Auto-generiert 2026-08-06 · Aurora (MasterBrain · Base44)*
